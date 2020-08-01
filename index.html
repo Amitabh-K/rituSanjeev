@@ -43,26 +43,68 @@
               <i class="fab fa-facebook"></i>
             </a>
           </div>
-          <div class="p-4">
-            <a href="#">
-              <i class="fab fa-twitter"></i>
-            </a>
-          </div>
+
+
+
           <div class="p-4">
             <a href="#">
 
 
               <!-- Trigger/Open The Modal -->
-              <div id="myBtn"> <i class="fas fa-phone-square"></i></div>
+              <div id="myBtn"> <i class="fa fa-envelope"></i></div>
 
               <!-- The Modal -->
               <div id="myModal" class="modal">
 
                 <!-- Modal content -->
                 <div class="modal-content">
+
                   <span class="close">&times;</span>
 
+                  <h3 class="number ml-5">
+                    ritusanjeev@gmail.com </h3>
+                  <br>
+                 
+                  <!-- <h6 class="number ml-5">
+                      ritusanjeev@gmail.com
+                      </h6> -->
                 </div>
+
+
+              </div>
+
+            </a>
+          </div>
+
+
+
+
+
+          <div class="p-4">
+            <a href="#">
+
+
+              <!-- Trigger/Open The Modal -->
+              <div id="myBtn2"> <i class="fas fa-phone-square"></i></div>
+
+              <!-- The Modal -->
+              <div id="myModal2" class="modal2">
+
+                <!-- Modal content -->
+                <div class="modal-content2">
+
+                  <span class="close2">&times;</span>
+
+                  <h3 class="number ml-5">
+                    Direct: 416 903 4715 </h3>
+                  <br>
+                  <h3 class="number ml-5">
+                    Office: 905 795 9911</h3>
+                  <!-- <h6 class="number ml-5">
+                      ritusanjeev@gmail.com
+                      </h6> -->
+                </div>
+
 
               </div>
 
@@ -414,6 +456,9 @@
             We will be happy to help!
           </p>
 
+          Direct: 416 903 4715
+          Office: 905 795 9911
+
           <div class="d-flex justify-content-center">
             <div class="p-4">
               <a href="http://facebook.com">
@@ -559,6 +604,33 @@
       modal.style.display = "none";
     }
   }
+
+ // Get the modal2
+ var modal2 = document.getElementById("myModal2");
+
+// Get the button that opens the modal
+var btn2 = document.getElementById("myBtn2");
+
+// Get the <span> element that closes the modal
+var span2 = document.getElementsByClassName("close2")[0];
+
+// When the user clicks the button, open the modal 
+btn2.onclick = function () {
+  modal2.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span2.onclick = function () {
+  modal2.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function (e) {
+  if (e.target == modal2) {
+    modal2.style.display = "none";
+  }
+}
+
 </script>
 
 </html>
