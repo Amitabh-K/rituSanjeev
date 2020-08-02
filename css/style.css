@@ -46,6 +46,7 @@ body {
 
     .fas {
       font-size: 1.5rem;
+      
     }
 
    .fab{
@@ -55,6 +56,10 @@ body {
     
    .fa{
     font-size: 1.5rem;
+  }
+
+  #myBtn2{
+    color: #3292a6;
   }
 
     
