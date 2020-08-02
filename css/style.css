@@ -3,6 +3,7 @@ body {
 
 .navbar {
   box-shadow: 2px 2px 5px #3292a6;
+  margin-bottom:;
   opacity: 0.9;
   background: #fff; }
   .navbar .nav-item {
